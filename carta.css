@@ -10,6 +10,8 @@ header {
     align-items: center;
     justify-content: space-between;
     text-align: right;
+    position: fixed;
+    width: 100%;
 }
 .logo {
     width: 250px;
@@ -32,7 +34,7 @@ nav a {
     padding-left: 200px;
 }
 
-div {
+.div0 {
     width: 150px;
     height: 1000px;
     padding: 10px;
@@ -40,13 +42,13 @@ div {
 }
 .img1 {
     width: 200px;
-    height: 900px;
+    height: 2000px;
     float: left;
     border-right: 15px solid black;
 }
 .img2 {
     width: 200px;
-    height: 900px;
+    height: 2000px;
     border-left: 15px solid black;
 }
 .p1 {
@@ -80,8 +82,30 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 350px 350px 350px;
+    gap: 30px;
     padding: 10px;
+    width: 800px;
+    margin: auto;
     
+}
+.div1 {
+    background-color: white;
+    width: 240px;
+}
+ 
+.cafe1 {
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.nombres {
+    color: black;
+    font-size: 22px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
 }
