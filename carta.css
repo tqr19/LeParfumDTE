@@ -1,0 +1,87 @@
+
+body {
+    background-color: #852F1B;
+    margin: 0%;
+}
+header {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+.logo {
+    width: 250px;
+    height: 100px;
+    padding-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav a {
+    font-weight: 500px;
+    padding-right: 30px;
+}
+.lista1 {
+    padding-left: 200px;
+}
+
+div {
+    width: 150px;
+    height: 1000px;
+    padding: 10px;
+    margin: 0;
+}
+.img1 {
+    width: 200px;
+    height: 900px;
+    float: left;
+    border-right: 15px solid black;
+}
+.img2 {
+    width: 200px;
+    height: 900px;
+    border-left: 15px solid black;
+}
+.p1 {
+    margin: 0px;
+}
+.p3 {
+    margin: 0px;
+}
+aside {
+    float: right;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    src: url('Calibri.ttf');
+    font-size: 65px;
+    color: white;
+    margin-bottom: 0%;
+}
+
+p {
+    font-size: 25px;
+    margin-right: 200px;
+    color: white;
+}
+
+.div0 {
+    margin-left: 185px;
+    width: 70%;
+    margin-left: 265px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    
+}
