@@ -22,7 +22,7 @@ header {
 
 a {
     text-decoration: none;
-    font-size: 28px;
+    font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -42,17 +42,7 @@ nav a {
     margin: 0;
     margin-top: 100px;
 }
-.img1 {
-    width: 200px;
-    height: 2000px;
-    float: left;
-    border-right: 15px solid black;
-}
-.img2 {
-    width: 200px;
-    height: 2000px;
-    border-left: 15px solid black;
-}
+
 .p1 {
     margin: 0px;
 }
@@ -136,5 +126,22 @@ footer {
 img {
     width: 45px;
     text-align: right;
+}
+
+/*javascript*/
+input{
+    width: 820px;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #d75534;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 120px;
     
+}
+
+.filtro{
+    display: none;
 }

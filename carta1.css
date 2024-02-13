@@ -1,0 +1,196 @@
+
+body {
+    background-color: white;
+    margin: 0%;
+}
+header {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.logo {
+    width: 250px;
+    height: 100px;
+    padding-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav a {
+    font-weight: 500px;
+    padding-right: 30px;
+}
+.lista1 {
+    padding-left: 200px;
+}
+
+.div0 {
+    width: 150px;
+    height: 1000px;
+    padding: 10px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+
+.p3 {
+    margin: 0px;
+}
+aside {
+    float: right;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    src: url('Calibri.ttf');
+    font-size: 65px;
+    color: black;
+    margin-bottom: 0%;
+}
+
+p {
+    font-size: 25px;
+    margin-right: 200px;
+    color: black;
+}
+
+.div0 {
+    margin-left: 185px;
+    height: fit-content;
+    width: 70%;
+    margin-left: 265px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 350px;
+    gap: 30px;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+    height: auto;
+    
+}
+/*.cafe1{
+    width: 700px;
+    height: 340px;
+    filter: opacity(80%);
+}*/
+/*cafeteria y bebidas*/
+.div1 {
+    background-image: url(./imagenes/bebidas.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+}
+.p1{
+    position: relative;
+    display: flex;
+    margin-left: 177px;
+    margin-right: auto;
+    margin-top: 138px;
+    font-size: 45px;
+    color: white;
+    font-family: "Mussels", Sans-serif;
+   filter: drop-shadow(black 5px 5px 2px);
+}
+/*cyb*/
+/*Desayunos*/
+.div2 {
+    background-image: url(./imagenes/desayunos.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+}
+.div3 {
+    background-image: url(./imagenes/bocadillos.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+}
+.div4 {
+    background-image: url(./imagenes/postres.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+}
+.nombres {
+    color: white;
+    font-size: 22px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+}
+.footerrr {
+    width: 100%;
+    height: 700px;
+}
+.redes {
+    position: absolute;
+    bottom: 60px;
+   
+}
+.red {
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+}
+.redes {
+    align-items: center;
+}
+.icon {
+    width: 45px;
+    text-align: right;
+}
+.red2 {
+    text-align: center;
+    color: white
+}
+.reddd {
+    position: absolute;
+    bottom: 60px;
+    align-items: center;
+}
+/*javascript*/
+
+.filtro{
+    display: none;
+}
+
