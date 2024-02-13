@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Contacto.css">
-    <script type="text/javascript" src="Contacto.js"></script>
-    <link href="https: //fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Imgs/Icono.jpeg">
+    <link rel="stylesheet" href="./Estilos/Contacto.css">
+    <script type="text/javascript" src="./JavaScript/Contacto.js"></script>
     <title>Contacto</title>
 </head>
 
@@ -14,31 +14,78 @@
     <header>
         <div>
             <span class="logo">
-                Le Parfum <br> Cafetería
-            </span>
+                Le Parfum </span>
+            <br><span class="logo2">CAFÉ</span>
+
         </div>
-        <!-- <img  src="../LeParfumDTE/Imgs/LE PARFUM.jpg"> -->
+     
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
+                <li><a href="Index.html">Inicio</a></li>
                 <li><a href="#">¿Quienes somos?</a></li>
                 <li><a href="#">Asociación</a></li>
                 <li><a href="#">Carta</a></li>
                 <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="zona1">
         <p id="contacta">CONTACTA CON LE PARFUM</p>
+        <p id="des">Estamos encantados de servirte, estamos a tu disposición en el horario habitual de lunes a
+            domingos.</p>
     </section>
     <section>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.099253612421!2d-3.602470524919!3d40.406651956254066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42255d3a247575%3A0xd8a0a40edf810cff!2sIES%20Villablanca!5e0!3m2!1ses!2ses!4v1707352823728!5m2!1ses!2ses"
-            width="1100" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </section>
+    <div class="item3">
+        <form action="mailto:tquesquen.12@gmail.com" method="post" class="Consultas">
+            <h1 class="mensaje">ENVIANOS UN <br> MENSAJE</h1>
+
+            <input type="text" name="nombre" id="nombre" required="required" placeholder="Tu Nombre" size="55"><br>
+
+            <br>
+            <input type="email" name="email" id="email" required="required" placeholder="Tu e-mail" size="55"><br>
+
+
+            <br>
+            <textarea name="otros" rows="8" cols="55" id="ayuda" required="required"
+                placeholder="En qué podemos ayudarte"></textarea><br>
+
+            <br>
+            <input id="boton" type="submit" value="ENVIAR">
+
+        </form>
+        <div class="horario">
+            <p class="mensaje">HORARIO LE PARFUM</p>
+            <p class="mens2">Si deseas contactar con nosotros escríbenos un mensaje o llámanos estamos de lunes a domingo en nuestro
+                horario habitual, nuestro teléfono es el 91 876 54 32 y nuestro móvil es el 654 321 058
+            </p>
+
+            <hr>
+
+            <p class="mens2">Lunes a Viernes 09:00 A 23:00 HORAS</p>
+            <p class="mens2">Sábado, Domingos y Feriados 09:00 A 23:00 HORAS</p>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="pie1">
+            <p>Siguenos en redes</p>
+            <br>
+            <a href="https://www.youtube.com/" target="_blank"><img src="./Imgs/facebook.jpg" class="icon"></a>
+            <a href="https://twitter.com/?lang=es/" target="_blank"><img src="./Imgs/insta.jpg" class="icon"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./Imgs/twitter.jpg" class="icon"></a>
+
+        </div>
+
+    </footer>
 
 </body>
 

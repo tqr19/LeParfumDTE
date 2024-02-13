@@ -2,7 +2,7 @@ body {
     margin: 0%;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,37 +12,60 @@ header{
     transition: 0.7s;
     z-index: 10;
 }
-header.abajo{
-    background: black;  
+
+header.abajo {
+    background: black;
 }
 
-header .logo{
+header .logo {
     position: relative;
     transition: 1.5s;
     width: 250px;
     height: 90px;
-    
-    font-size: x-large;
-    font-family: Homemade Apple;
+    color: white;
+    font-size: 30px;
+    font-family:Allura;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
 }
-nav{
+
+header .logo2 {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 20px;
+    padding-left: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    line-height: 80%;
+}
+
+
+@font-face {
+    font-family:Allura;
+    src: url(../Fuentes/Allura-Regular.ttf);
+}
+
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header ul{
+header ul {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header ul li{
+header ul li {
     list-style: none;
 }
 
-header ul li a{
+header ul li a {
     position: relative;
     font-family: helvetica;
     margin: 0 15px;
@@ -53,19 +76,110 @@ header ul li a{
     transition: 0.7s;
 }
 
-.zona1{
+.zona1 {
     position: relative;
     width: 100%;
-    height: 75vh;
-    background: url(../LeParfumDTE/Imgs/BannerCafe.jpg);
-    background-size: 100vw 75vh;
+    height: 45vh;
+    background: url(../Imgs/BANNER2.1.jpg);
+    background-size: 100vw 45vh;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+iframe {
+    height: 500px;
+    width: 100%;
 }
 
 #contacta {
-font-weight: bold;
-color:white;
-font-size: 70px;
-margin: 0;
-padding-top: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    font-family: monospace;
+    word-spacing: -18px;
+    padding-top: 150px;
 }
+
+#des {
+    font-size: 16px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.Consultas {
+    border: 40px #c68c53 solid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.horario {
+    display: flex;
+    border: 10px solid black;
+    width: 50vw;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.item3 {
+    display: flex;
+    align-content: center;
+    
+}
+
+#nombre,
+#email,
+#ayuda {
+    border: 2px solid #c68c53;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.mensaje {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.mens2 {
+    font-family: helvetica;
+}
+
+#boton {
+background-color: #331a00 ;
+color: white;
+padding: 15px 207px 15px 207px;
+border: 0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 17px;
+font-weight: bold;
+}
+
+footer {
+    background: url(../Imgs/footer.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: 100vw 70vh;
+    background-repeat: no-repeat;
+}
+
+.icon {
+    width: 45px;
+}
+
+.pie1 {
+    position: absolute;
+    padding-top: 450px;
+    padding-right: 30px;
+}
+
+a:hover, a:active {
+    border-bottom: 5px solid white;
+    
+}
+
