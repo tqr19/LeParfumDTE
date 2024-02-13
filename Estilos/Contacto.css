@@ -85,10 +85,22 @@ header ul li a {
     background-repeat: no-repeat;
     text-align: center;
 }
-
+.section2 {
+    display: flex;
+}
 iframe {
     height: 500px;
-    width: 100%;
+    width: 50vw;
+}
+
+.localizacion {
+    width: 500px;
+    border: 25px solid  #331708;
+   
+}
+
+.itemloc  {
+    display: flex;
 }
 
 #contacta {
@@ -110,24 +122,32 @@ iframe {
 
 .Consultas {
     border: 40px #c68c53 solid;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 50vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .horario {
     display: flex;
     border: 10px solid black;
+    background-color: black;
     width: 50vw;
     flex-direction: column;
-    padding: 60px;
+    padding: 180px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: justify;
 }
 
 .item3 {
     display: flex;
-    align-content: center;
+    justify-content: center
     
 }
 
@@ -144,14 +164,22 @@ iframe {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     letter-spacing: -2px;
+
+}
+
+#mensaje3  {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
 }
 
 .mens2 {
     font-family: helvetica;
+    color:white;
 }
 
 #boton {
-background-color: #331a00 ;
+background-color: #331708 ;
 color: white;
 padding: 15px 207px 15px 207px;
 border: 0;
@@ -166,16 +194,24 @@ footer {
     height: 70vh;
     background-size: 100vw 70vh;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 
 .icon {
     width: 45px;
+    height: 48px;
 }
 
 .pie1 {
     position: absolute;
     padding-top: 450px;
-    padding-right: 30px;
+   
+}
+
+hr {
+    border: 1px solid white;
+    margin: 0;
 }
 
 a:hover, a:active {
