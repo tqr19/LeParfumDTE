@@ -13,7 +13,6 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 5;
 }
 .logo {
     width: 250px;
@@ -44,7 +43,9 @@ nav a {
     margin-top: 100px;
 }
 
-
+.p1 {
+    margin: 0px;
+}
 .p3 {
     margin: 0px;
 }
@@ -74,8 +75,8 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 350px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 350px 350px 350px;
     gap: 30px;
     padding: 10px;
     width: 800px;
@@ -83,69 +84,18 @@ p {
     height: auto;
     
 }
-/*.cafe1{
-    width: 700px;
-    height: 340px;
-    filter: opacity(80%);
-}*/
-/*cafeteria y bebidas*/
 .div1 {
-    background-image: url(./imagenes/bebidas.jpg);
-    background-repeat: no-repeat;
-    background-size: 700px 340px;
-    width: 700px;
-    height: 340px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #000000;
-    opacity: 0.7;
+    background-color: black;
+    width: 240px;
 }
-.p1{
-    position: relative;
-    display: flex;
-    margin-left: 177px;
-    margin-right: auto;
-    margin-top: 138px;
-    font-size: 45px;
-    color: white;
-    font-family: "Mussels", Sans-serif;
-   filter: drop-shadow(black 5px 5px 2px);
+ 
+.cafe1 {
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 18px;
 }
-/*cyb*/
-/*Desayunos*/
-.div2 {
-    background-image: url(./imagenes/desayunos.jpg);
-    background-repeat: no-repeat;
-    background-size: 700px 340px;
-    width: 700px;
-    height: 340px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #000000;
-    opacity: 0.7;
-}
-.div3 {
-    background-image: url(./imagenes/bocadillos.jpg);
-    background-repeat: no-repeat;
-    background-size: 700px 340px;
-    width: 700px;
-    height: 340px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #000000;
-    opacity: 0.7;
-}
-.div4 {
-    background-image: url(./imagenes/postres.jpg);
-    background-repeat: no-repeat;
-    background-size: 700px 340px;
-    width: 700px;
-    height: 340px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #000000;
-    opacity: 0.7;
-}
+
 .nombres {
     color: white;
     font-size: 22px;
@@ -153,7 +103,6 @@ p {
     padding-left: 20px;
     padding-top: 10px;
 }
-
 footer {
     position: relative;
     display: flex;
@@ -165,32 +114,34 @@ footer {
 .redes {
     position: absolute;
     bottom: 60px;
-   
+    right: 1%;
 }
 .red {
     color: white;
     margin: 0px;
-    font-size: 20px;
 }
 .redes {
     align-items: center;
 }
-.icon {
+img {
     width: 45px;
     text-align: right;
 }
-.red2 {
-    text-align: center;
-    color: white
-}
-.reddd {
-    position: absolute;
-    bottom: 60px;
-    align-items: center;
-}
+
 /*javascript*/
+input{
+    width: 820px;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #d75534;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    
+}
 
 .filtro{
     display: none;
 }
-

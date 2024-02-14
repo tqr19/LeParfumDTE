@@ -13,6 +13,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 5;
 }
 .logo {
     width: 250px;
@@ -43,9 +44,7 @@ nav a {
     margin-top: 100px;
 }
 
-.p1 {
-    margin: 0px;
-}
+
 .p3 {
     margin: 0px;
 }
@@ -75,8 +74,8 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 350px 350px 350px;
+    grid-template-columns: auto;
+    grid-template-rows: 350px;
     gap: 30px;
     padding: 10px;
     width: 800px;
@@ -84,18 +83,90 @@ p {
     height: auto;
     
 }
+
+/*.grid-container:hover {
+    transform: scale(1.2); 
+}*/
+/*.cafe1{
+    width: 700px;
+    height: 340px;
+    filter: opacity(80%);
+}*/
+/*cafeteria y bebidas*/
 .div1 {
-    background-color: black;
-    width: 240px;
+    background-image: url(./Imgs/bebidas.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
 }
- 
-.cafe1 {
-    width: 200px;
-    height: 250px;
-    margin-top: 20px;
-    margin-left: 18px;
+.div1:hover{
+    transform: scale(1.1); 
+}
+.p1{
+    position: relative;
+    display: flex;
+    margin-left: 177px;
+    margin-right: auto;
+    margin-top: 138px;
+    font-size: 45px;
+    color: white;
+    font-family: "Mussels", Sans-serif;
+   filter: drop-shadow(black 5px 5px 2px);
+}
+/*cyb*/
+/*Desayunos*/
+.div2 {
+    background-image: url(./Imgs/desayunos.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+.div2:hover{
+    transform: scale(1.1); 
+}
+.div3 {
+    background-image: url(./Imgs/bocadillos.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+.div3:hover{
+    transform: scale(1.1); 
+}
+.div4 {
+    background-image: url(./Imgs/postres.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
 }
 
+.div4:hover{
+    transform: scale(1.1); 
+}
 .nombres {
     color: white;
     font-size: 22px;
@@ -103,45 +174,55 @@ p {
     padding-left: 20px;
     padding-top: 10px;
 }
+
 footer {
+    background-image: url(./Imgs/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 800px;
+    /*border: 5px solid black;*/
+    height: 700px;
     position: relative;
     display: flex;
 }
-.footerrr {
+.maps {
+    border: 5px solid;
+    width: 479px;
+    margin: auto;
+    margin-top: 400px;
+
+}
+.icon {
+    width: 45px;
+}
+/*.footerrr {
     width: 100%;
     height: 700px;
 }
 .redes {
     position: absolute;
     bottom: 60px;
-    right: 1%;
+   
 }
 .red {
     color: white;
     margin: 0px;
+    font-size: 20px;
 }
 .redes {
     align-items: center;
 }
-img {
-    width: 45px;
-    text-align: right;
+.red2 {
+    text-align: center;
+    color: white
 }
-
+.reddd {
+    position: absolute;
+    bottom: 60px;
+    align-items: center;
+}
 /*javascript*/
-input{
-    width: 820px;
-    padding: 10px;
-    outline: none;
-    border: 5px solid #d75534;
-    font-size: 25px;
-    border-radius: 30px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    margin-left: 120px;
-    
-}
 
-.filtro{
+/*.filtro{
     display: none;
 }
+
