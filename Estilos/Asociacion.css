@@ -1,0 +1,84 @@
+body {
+    margin: 0%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    z-index: 10;
+    background-color: black;
+    
+    
+}
+
+@font-face {
+    font-family:Allura;
+    src: url(../Fuentes/Allura-Regular.ttf);
+}
+
+#LOGO {
+    text-decoration: none;
+}
+
+header .logo {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 30px;
+    font-family:Allura;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+
+header .logo2 {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 20px;
+    padding-left: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    line-height: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    font-family: helvetica;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    padding: 15px 15px;
+}
+
+.lista:hover {
+    background-color: #262626;
+    
+}

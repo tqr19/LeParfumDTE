@@ -17,6 +17,9 @@ header.abajo {
     background: black;
 }
 
+#LOGO {
+    text-decoration: none;
+}
 header .logo {
     position: relative;
     transition: 1.5s;
@@ -43,6 +46,7 @@ header .logo2 {
 }
 
 
+
 @font-face {
     font-family:Allura;
     src: url(../Fuentes/Allura-Regular.ttf);
@@ -65,16 +69,23 @@ header ul li {
     list-style: none;
 }
 
+.lista:hover {
+    background-color: #262626;
+    
+}
+
 header ul li a {
     position: relative;
     font-family: helvetica;
-    margin: 0 15px;
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
+    padding: 15px 15px;
 }
+
+/*hasta aquí*/
 
 .zona1 {
     position: relative;
@@ -96,13 +107,20 @@ iframe {
 .localizacion {
     width: 25vw;
     border: 25px solid  #331708;
-   
+}
+
+.lo1, .lo2  {
+    display:flex
 }
 
 .itemloc  {
     display: flex;
 }
 
+.lo1:hover, .lo2 :hover {
+    transition: transform .5s;
+    transform:scale(1.1);
+}
 #contacta {
     font-weight: bold;
     color: white;
@@ -214,8 +232,5 @@ hr {
     margin: 0;
 }
 
-a:hover, a:active {
-    border-bottom: 5px solid white;
-    
-}
+
 
