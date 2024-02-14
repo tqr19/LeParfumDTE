@@ -42,12 +42,12 @@
             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
         <div class="itemloc">
-            <img class="localizacion" src="./Imgs/Localizacion1.png"> 
+            <img class="localizacion" src="./Imgs/Localizacion1.png">
             <img class="localizacion" src="./Imgs/Localizacion3.png">
         </div>
     </section>
     <div class="item3">
-        <form action="mailto:tquesquen.12@gmail.com" method="post" class="Consultas">
+        <form action="mailto:tquesquen.12@gmail.com" method="post" class="Consultas" autocomplete="on">
             <h1 class="mensaje">ENVIANOS UN MENSAJE</h1>
 
             <input type="text" name="nombre" id="nombre" required="required" placeholder="Tu Nombre" size="55"><br>
@@ -58,9 +58,16 @@
 
             <br>
             <textarea name="otros" rows="8" cols="55" id="ayuda" required="required"
-                placeholder="En qué podemos ayudarte"></textarea><br>
-
+                placeholder="En qué podemos ayudarte"></textarea>
             <br>
+
+            <div>
+                <input type="checkbox" class="politica" name="politica1" value="Acepto">
+                <label for="politica1" class="politica"> He leído y acepto la política de privacidad</label>
+
+            </div>
+            <br>
+
             <input id="boton" type="submit" value="ENVIAR">
 
         </form>
