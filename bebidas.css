@@ -54,94 +54,28 @@ aside {
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    src: url('Calibri.ttf');
-    font-size: 65px;
+    font-size: 50px;
     color: black;
     margin-bottom: 0%;
-}
-
-p {
-    font-size: 25px;
-    margin-right: 200px;
-    color: black;
+    text-align: center;
 }
 
 .div0 {
     margin-left: 185px;
     height: fit-content;
-    width: 70%;
+    width: 65%;
     margin-left: 265px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 350px 350px 350px;
-    gap: 30px;
-    padding: 10px;
-    width: 800px;
-    margin: auto;
-    height: auto;
-    
-}
 .div1 {
-    background-color: black;
-    width: 240px;
-}
- 
-.cafe1 {
-    width: 200px;
-    height: 250px;
-    margin-top: 20px;
-    margin-left: 18px;
+    align-content: center;
 }
 
-.nombres {
-    color: white;
-    font-size: 22px;
-    margin: auto;
-    padding-left: 20px;
-    padding-top: 10px;
+.plomo {
+    font-size: small;
 }
-footer {
-    position: relative;
-    display: flex;
-}
-.footerrr {
-    width: 100%;
-    height: 700px;
-}
-.redes {
-    position: absolute;
-    bottom: 60px;
-    right: 1%;
-}
-.red {
-    color: white;
-    margin: 0px;
-}
-.redes {
-    align-items: center;
-}
-img {
-    width: 45px;
-    text-align: right;
-}
-
-/*javascript*/
-input{
-    width: 820px;
-    padding: 10px;
-    outline: none;
-    border: 5px solid #d75534;
-    font-size: 25px;
-    border-radius: 30px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    margin-left: 120px;
-    
-}
-
 .filtro{
     display: none;
 }
+
+

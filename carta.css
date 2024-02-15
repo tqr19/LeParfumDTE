@@ -3,6 +3,83 @@ body {
     background-color: white;
     margin: 0%;
 }
+
+/*header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    z-index: 10;
+}
+
+header.abajo {
+    background-color: #000000;
+}
+
+header .logo {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 30px;
+    font-family:Allura;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+
+header .logo2 {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 20px;
+    padding-left: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    line-height: 80%;
+}
+
+
+@font-face {
+    font-family:Allura;
+    src: url(../Fuentes/Allura-Regular.ttf);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}header tatiana*/
+
+/*header dani*/
 header {
     display: flex;
     background-color: black;
@@ -35,6 +112,7 @@ nav a {
 .lista1 {
     padding-left: 200px;
 }
+/**/
 
 .div0 {
     width: 150px;
@@ -43,7 +121,6 @@ nav a {
     margin: 0;
     margin-top: 100px;
 }
-
 
 .p3 {
     margin: 0px;
@@ -174,7 +251,7 @@ p {
     padding-left: 20px;
     padding-top: 10px;
 }
-
+/*footer*/
 footer {
     background-image: url(./Imgs/footer.jpg);
     background-repeat: no-repeat;
@@ -185,14 +262,43 @@ footer {
     display: flex;
 }
 .maps {
-    border: 5px solid;
+    /*border: 5px solid;*/
     width: 479px;
     margin: auto;
     margin-top: 400px;
-
+    text-align: -webkit-center;
 }
+.red {
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif
+}
+.redes{
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.social {
+    width: 479px;
+    margin: auto;
+    margin-top: 400px;
+    text-align: -webkit-center;
+}
+
 .icon {
     width: 45px;
+    transition: transform .2s; 
+}
+.icon:hover{
+    transform: scale(1.2); 
 }
 /*.footerrr {
     width: 100%;
