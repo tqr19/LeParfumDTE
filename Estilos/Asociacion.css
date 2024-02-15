@@ -16,6 +16,14 @@ header {
     
 }
 
+.div0 {
+    padding: 10px;
+    margin-top: 100px;
+    height: fit-content;
+    width: 70%;
+    margin-left: 265px;
+}
+
 @font-face {
     font-family:Allura;
     src: url(../Fuentes/Allura-Regular.ttf);
@@ -28,8 +36,6 @@ header {
 header .logo {
     position: relative;
     transition: 1.5s;
-    width: 250px;
-    height: 90px;
     color: white;
     font-size: 30px;
     font-family:Allura;
@@ -41,8 +47,6 @@ header .logo {
 header .logo2 {
     position: relative;
     transition: 1.5s;
-    width: 250px;
-    height: 90px;
     color: white;
     font-size: 20px;
     padding-left: 76px;
@@ -82,3 +86,51 @@ header ul li a {
     background-color: #262626;
     
 }
+
+footer {
+    background-image: url(../Imgs/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 800px;
+    /*border: 5px solid black;*/
+    height: 700px;
+    position: relative;
+    display: flex;
+}
+.maps {
+    /*border: 5px solid;*/
+    width: 479px;
+    margin: auto;
+    margin-top: 400px;
+    text-align: -webkit-center;
+}
+.red {
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif
+}
+.redes{
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.social {
+    width: 479px;
+    margin: auto;
+    margin-top: 400px;
+    text-align: -webkit-center;
+}
+
+.icon {
+    width: 45px;
+    transition: transform .2s; 
+}
+.icon:hover{
+    transform: scale(1.2); }

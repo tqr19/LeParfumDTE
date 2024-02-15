@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <div >
+        <div>
             <a href="Contacto.html" id="LOGO">
                 <span class="logo">
                     Le Parfum </span>
@@ -31,31 +31,184 @@
             </ul>
         </nav>
     </header>
+    <div class="div0">
+        <div>
+            <p>
+                Únete a nuestra asociacion de catadores profesionles de café en la cual nos reuniremos a compartir
+                conocimientos sobre esto.
+            </p>
+        </div>
 
-    <div>
-        <p>
-            Únete a nuestra asociacion de catadores profesionles de café en la cual nos reuniremos a compartir
-            conocimientos sobre esto.
-        </p>
+        <div>
+            <form action="mailto:tquesquen.12@gmail.com" method="post" class="Consultas" autocomplete="on">
+                <h1 class="mensaje">REGÍSTRATE</h1>
+
+                <label for="nombre">Nombre *</label>
+                <input type="text" name="nombre" id="nombre" required="required" placeholder="Escribe tu Nombre"
+                    size="30"><br>
+
+                <br>
+                <label for="apellidos">Apellidos *</label>
+                <input type="text" name="apellidos" id="apellidos" required="required" placeholder="Escribe tu Apellido"
+                    size="30"><br>
+
+
+                <br>
+                <label for="doc">Documento de Identidad *</label>
+                <input type="text" name="doc" id="doc" required="required" placeholder="Escribe tu Numero de Documento"
+                    size="30"><br>
+
+                <br>
+                <label for="email">Correo Electrónico *</label>
+                <input type="email" name="email" id="email" required="required" placeholder="Tu e-mail" size="55"><br>
+
+                <label for="estado">Estado Civil</label>
+                <select name="estado">
+                    <option value=”soltero” selected>Soltero</option>
+                    <option value=”casado”>Casado</option>
+                    <option value=”divorciado”>Divorciado</option>
+                </select><br>
+
+
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" name="telefono" placeholder="Escribe tu Numero" id="telefono"><br>
+
+                <br>
+                <label for="disponibilidad">Disponibilidad </label><br>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Todo el dia</th>
+                            <th>Mañana</th>
+                            <th>Tarde</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>
+                                <input type="checkbox" name="mañana" value="Acepto">
+                            </td>
+                            <td>
+                                <input type="checkbox" name="tarde" value="Acepto">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td>
+                                <input type="checkbox" name="mañana" value="Acepto">
+                            </td>
+                            <td>
+                                <input type="checkbox" name="tarde" value="Acepto">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Miercoles</td>
+                            <td>
+                                <input type="checkbox" name="mañana" value="Acepto">
+                            </td>
+                            <td>
+                                <input type="checkbox" name="tarde" value="Acepto">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td>
+                                <input type="checkbox" name="mañana" value="Acepto">
+                            </td>
+                            <td>
+                                <input type="checkbox" name="tarde" value="Acepto">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>
+                                <input type="checkbox" name="mañana" value="Acepto">
+                            </td>
+                            <td>
+                                <input type="checkbox" name="tarde" value="Acepto">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>
+                                <input type="checkbox" name="mañana" value="Acepto">
+                            </td>
+                            <td>
+                                <input type="checkbox" name="tarde" value="Acepto">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>
+                                <input type="checkbox" name="mañana" value="Acepto">
+                            </td>
+                            <td>
+                                <input type="checkbox" name="tarde" value="Acepto">
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table> <br>
+
+                <label for="telefono">Motivación para entrar</label><br>
+                <ul type="none">
+                    <li><input type="checkbox" name="verificacion" id="verificacion">
+                        <label for="verificacion">Participar en actividades </label>
+                    </li><br>
+
+                    <li><input type="checkbox" name="verificacion" id="verificacion">
+                        <label for="verificacion">Preparar actividades </label>
+                    </li><br>
+
+                    <li><input type="checkbox" name="verificacion" id="verificacion">
+                        <label for="verificacion">Curiosidad por la asociación </label>
+                    </li><br>
+
+                    <li><input type="checkbox" name="verificacion" id="verificacion">
+                        <label for="verificacion">Otros </label>
+                    </li>
+                    <textarea name="otros" rows="8" cols="30" id="otros" placeholder="Escribe el motivo"></textarea>
+
+                </ul>
+
+                <div>
+                    <input type="checkbox" class="politica" name="politica1" value="Acepto">
+                    <label for="politica1" class="politica"> He leído y acepto la política de privacidad</label>
+
+                </div>
+                <br>
+
+                <input id="boton" type="submit" value="ENVIAR">
+
+            </form>
+        </div>
     </div>
 
 
+    <footer>
 
-    <!-- <footer>
-        <div>
-            <img class="icon" src="./Imgs/maps.jpg">
-            <br><span>Te esperamos en <br> C. de Villablanca, 79 <br> Vicálvaro-Madrid</span>
+        <div class="maps">
+            <a href="https://maps.app.goo.gl/QfVSaZYuHRR2D1vJ7" target="_blank" class="icon"><img src="./Imgs/maps.jpg"
+                    class="icon"></a>
+            <p class="red">Te esperamos en la <br> C.de Villablanca, 79, 28032 <br>Madrid, España</p>
+
+            <p class="redes">Siguenos en nuestras redes</p>
+
+            <div>
+                <a href="https://www.youtube.com/" target="_blank" class="icon"><img src="./Imgs/facebook.jpg"
+                        class="icon"></a>
+                <a href="https://twitter.com/?lang=es/" target="_blank" class="icon"><img src="./Imgs/insta.jpg"
+                        class="icon"></a>
+                <a href="https://www.facebook.com/" target="_blank" class="icon"><img src="./Imgs/twitter.jpg"
+                        class="icon"></a>
+            </div>
         </div>
-        <div class="pie1">
-            <span>Síguenos en redes sociales</span>
-            <br>
-            <a href="https://www.youtube.com/" target="_blank"><img src="./Imgs/facebook.jpg" class="icon"></a>
-            <a href="https://twitter.com/?lang=es/" target="_blank"><img src="./Imgs/insta.jpg" class="icon"></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="./Imgs/twitter.jpg" class="icon"></a>
 
-        </div>
-
-    </footer> -->
+    </footer>
 
 </body>
 
