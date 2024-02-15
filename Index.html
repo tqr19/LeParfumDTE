@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="./Estilos/inicio.css">
     <title>Inicio</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="./Imgs/LE PARFUM.jpg">
-        <nav class="lista1">
-                <a href="Inicio.html">Inicio</a>
-                <a href="#">¿Quienes somos?</a>
-                <a href="#">Asociación</a>
-                <a hr ef="#">Carta</a>
-                <a href="#">Productos</a>
-                <a href="#">Contacto</a>
-        </nav>  
+        <div>
+            <a href="Contacto.html" id="LOGO">
+                <span class="logo">
+                    Le Parfum </span>
+                <br><span class="logo2">CAFÉ</span>
+            </a>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="./Index.html" class="lista">Inicio</a></li>
+                <li><a href="#" class="lista">¿Quienes somos?</a></li>
+                <li><a href="./Asociacion.html" class="lista">Asociación</a></li>
+                <li><a href="./carta.html" class="lista">Carta</a></li>
+                <li><a href="#" class="lista">Productos</a></li>
+                <li><a href="./Contacto.html" class="lista">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
     
     <div id="Tvi">
@@ -36,10 +46,10 @@
         <section class="container top-categories">
             <h1 class="heading-1">Mejores Categorías</h1>
             <div class="container-categories">
-                <div class="card-category category-moca">
+                <div class="card-category ./ category-moca">
                     <p>Café moca</p>
                     <span>Ver más</span>
-                </div>
+                </div> 
                 <div class="card-category category-expreso">
                     <p>Expreso Americano</p>
                     <span>Ver más</span>
@@ -438,14 +448,22 @@
     </main>
 
 <footer>
-        <img src="./Imgs/footer.jpg" class="footerrr">
-     <div class="redes">
-        <p class="red">Siguenos en redes</p>
-        <br>
-        <a href="https://www.youtube.com/" target="_blank" class="icon"><img src="./Imgs/facebook.jpg"></a>
-        <a href="https://twitter.com/?lang=es/" target="_blank" class="icon"><img src="./Imgs/insta.jpg"></a>
-        <a href="https://www.facebook.com/" target="_blank" class="icon"><img src="./Imgs/twitter.jpg"></a>
-        
+    
+    <div class="maps">
+        <a href="https://maps.app.goo.gl/QfVSaZYuHRR2D1vJ7" target="_blank" class="icon"><img src="./Imgs/maps.jpg"
+                class="icon"></a>
+        <p class="red">Te esperamos en la <br> C.de Villablanca, 79, 28032 <br>Madrid, España</p>
+
+        <p class="redes">Siguenos en nuestras redes</p>
+
+        <div>
+            <a href="https://www.youtube.com/" target="_blank" class="icon"><img src="./Imgs/facebook.jpg"
+                    class="icon"></a>
+            <a href="https://twitter.com/?lang=es/" target="_blank" class="icon"><img src="./Imgs/insta.jpg"
+                    class="icon"></a>
+            <a href="https://www.facebook.com/" target="_blank" class="icon"><img src="./Imgs/twitter.jpg"
+                    class="icon"></a>
+        </div>
     </div>
 
 </footer>
