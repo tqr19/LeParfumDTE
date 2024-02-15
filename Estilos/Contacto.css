@@ -1,0 +1,221 @@
+body {
+    margin: 0%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    z-index: 10;
+}
+
+header.abajo {
+    background: black;
+}
+
+header .logo {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 30px;
+    font-family:Allura;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+
+header .logo2 {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 20px;
+    padding-left: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    line-height: 80%;
+}
+
+
+@font-face {
+    font-family:Allura;
+    src: url(../Fuentes/Allura-Regular.ttf);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.zona1 {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    background: url(../Imgs/BANNER2.1.jpg);
+    background-size: 100vw 45vh;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.section2 {
+    display: flex;
+}
+iframe {
+    height: 500px;
+    width: 50vw;
+}
+
+.localizacion {
+    width: 25vw;
+    border: 25px solid  #331708;
+   
+}
+
+.itemloc  {
+    display: flex;
+}
+
+#contacta {
+    font-weight: bold;
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    font-family: monospace;
+    word-spacing: -18px;
+    padding-top: 150px;
+}
+
+#des {
+    font-size: 16px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.Consultas {
+    border: 40px #c68c53 solid;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 50vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.horario {
+    display: flex;
+    border: 10px solid black;
+    background-color: black;
+    width: 50vw;
+    flex-direction: column;
+    padding: 180px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.item3 {
+    display: flex;
+    justify-content: center
+    
+}
+
+#nombre,
+#email,
+#ayuda {
+    border: 2px solid #c68c53;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.mensaje {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: -2px;
+
+}
+
+#mensaje3  {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.mens2 {
+    font-family: helvetica;
+    color:white;
+}
+
+#boton {
+background-color: #331708 ;
+color: white;
+padding: 15px 207px 15px 207px;
+border: 0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 17px;
+font-weight: bold;
+}
+
+footer {
+    background: url(../Imgs/footer.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: 100vw 70vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 45px;
+    height: 48px;
+}
+
+.pie1 {
+    position: absolute;
+    padding-top: 450px;
+   
+}
+
+hr {
+    border: 1px solid white;
+    margin: 0;
+}
+
+a:hover, a:active {
+    border-bottom: 5px solid white;
+    
+}
+
