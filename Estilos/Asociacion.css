@@ -87,17 +87,69 @@ header ul li a {
     
 }
 
+.contenido {
+font-size: 20px;
+}
+
+.registro {
+    border: 40px #c68c53 solid;
+    padding-top: 70px;
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 50vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: -2px;
+    margin-bottom: 0;
+}
+input {
+    padding: 10px;
+    border: 2px solid #331708;
+}
+
+#boton {
+    background-color: #331708 ;
+    color: white;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    }
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.obligatorio {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 footer {
     background-image: url(../Imgs/footer.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 800px;
-    /*border: 5px solid black;*/
     height: 700px;
     position: relative;
     display: flex;
 }
 .maps {
-    /*border: 5px solid;*/
     width: 479px;
     margin: auto;
     margin-top: 400px;
@@ -133,4 +185,29 @@ footer {
     transition: transform .2s; 
 }
 .icon:hover{
-    transform: scale(1.2); }
+    transform: scale(1.2); 
+}
+
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color:white;
+    margin-right: 25px;
+    font-family: helvetica;    
+}
+
+.cont {
+display: flex;
+}
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}

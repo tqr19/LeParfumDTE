@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./Imgs/Icono.jpeg">
     <link rel="stylesheet" href="./Estilos/Asociacion.css">
+    <script type="text/javascript" src="./JavaScript/Asociacion.js"></script>
     <title>Asociación</title>
 </head>
 
 <body>
     <header>
         <div>
-            <a href="Contacto.html" id="LOGO">
+            <a href="Index.html" id="LOGO">
                 <span class="logo">
                     Le Parfum </span>
                 <br><span class="logo2">CAFÉ</span>
@@ -22,7 +23,7 @@
 
         <nav>
             <ul>
-                <li><a href="./" class="lista">Inicio</a></li>
+                <li><a href="./Index.html" class="lista">Inicio</a></li>
                 <li><a href="./Quienes Somos.html" class="lista">¿Quienes somos?</a></li>
                 <li><a href="./Asociacion.html" class="lista">Asociación</a></li>
                 <li><a href="./carta.html" class="lista">Carta</a></li>
@@ -32,7 +33,7 @@
         </nav>
     </header>
     <div class="div0">
-        <div>
+        <div class="contenido">
             <p>
                 Únete a nuestra asociacion de catadores profesionles de café en la cual nos reuniremos a compartir
                 conocimientos sobre esto.
@@ -40,27 +41,30 @@
         </div>
 
         <div>
-            <form action="mailto:tquesquen.12@gmail.com" method="post" class="Consultas" autocomplete="on">
+            <form action="mailto:tquesquen.12@gmail.com" method="post" class="registro" autocomplete="on">
                 <h1 class="mensaje">REGÍSTRATE</h1>
 
-                <label for="nombre">Nombre *</label>
+                <p><span class="obligatorio">*</span> Indica un campo obligatorio</p><br>
+
+                <label for="nombre">Nombre <span class="obligatorio">*</span></label>
                 <input type="text" name="nombre" id="nombre" required="required" placeholder="Escribe tu Nombre"
                     size="30"><br>
 
                 <br>
-                <label for="apellidos">Apellidos *</label>
+                <label for="apellidos">Apellidos <span class="obligatorio">*</span></label>
                 <input type="text" name="apellidos" id="apellidos" required="required" placeholder="Escribe tu Apellido"
                     size="30"><br>
 
 
                 <br>
-                <label for="doc">Documento de Identidad *</label>
-                <input type="text" name="doc" id="doc" required="required" placeholder="Escribe tu Numero de Documento"
+                <label for="doc">Documento de Identidad <span class="obligatorio">*</span></label>
+                <input type="text" name="doc" id="doc" required="required" placeholder="Escribe tu número de documento"
                     size="30"><br>
 
                 <br>
-                <label for="email">Correo Electrónico *</label>
-                <input type="email" name="email" id="email" required="required" placeholder="Tu e-mail" size="55"><br>
+                <label for="email">Correo Electrónico <span class="obligatorio">*</span></label>
+                <input type="email" name="email" id="email" required="required" placeholder="Escribe tu e-mail"
+                    size="55"><br>
 
                 <label for="estado">Estado Civil</label>
                 <select name="estado">
@@ -70,8 +74,8 @@
                 </select><br>
 
 
-                <label for="telefono">Teléfono *</label>
-                <input type="tel" name="telefono" placeholder="Escribe tu Numero" id="telefono"><br>
+                <label for="telefono">Teléfono <span class="obligatorio">*</span></label>
+                <input type="tel" name="telefono" placeholder="Escribe tu número" id="telefono"><br>
 
                 <br>
                 <label for="disponibilidad">Disponibilidad </label><br>
@@ -153,8 +157,8 @@
                     </tbody>
 
                 </table> <br>
-
-                <label for="telefono">Motivación para entrar</label><br>
+                <br>
+                <label for="telefono">Motivación para entrar</label>
                 <ul type="none">
                     <li><input type="checkbox" name="verificacion" id="verificacion">
                         <label for="verificacion">Participar en actividades </label>
@@ -171,18 +175,24 @@
                     <li><input type="checkbox" name="verificacion" id="verificacion">
                         <label for="verificacion">Otros </label>
                     </li>
-                    <textarea name="otros" rows="8" cols="30" id="otros" placeholder="Escribe el motivo"></textarea>
+                    <textarea name="otro motivo" rows="8" cols="30" id="otros"
+                        placeholder="Escribe el motivo"></textarea>
 
                 </ul>
 
+                <br>
+
                 <div>
-                    <input type="checkbox" class="politica" name="politica1" value="Acepto">
-                    <label for="politica1" class="politica"> He leído y acepto la política de privacidad</label>
+                    <input type="checkbox" class="politica" name="Condiciones" value="Acepto" required="required">
+                    <label for="Condiciones" class="politica"> He leído y acepto las condiciones de la
+                        asociación</label>
 
                 </div>
                 <br>
-
-                <input id="boton" type="submit" value="ENVIAR">
+                <br>
+                <div class="botones">
+                    <input id="boton" type="reset" value="REINICIO"><input id="boton" type="submit" value="ENVIAR">
+                </div>
 
             </form>
         </div>
@@ -206,6 +216,51 @@
                 <a href="https://www.facebook.com/" target="_blank" class="icon"><img src="./Imgs/twitter.jpg"
                         class="icon"></a>
             </div>
+        </div>
+        <div class="contactanos">
+            <a href="./Contacto.html">
+                <p>CONTÁCTANOS</p>
+            </a>
+
+            <div class="cont">
+
+                <a href="mailto:tjqr93@educa.madrid.org" class="icon"><img src="./Imgs/E-mail.png" class="icon"></a>
+
+                <div class="cont2">
+
+                    <span>Daniela Ordoñez Maygua</span>
+                    <a href="mailto:kdom99@educa.madrid.org">kdom99@educa.madrid.org</a>
+                </div>
+
+            </div>
+
+            <div class="cont">
+
+                <a href="mailto:tjqr93@educa.madrid.org" class="icon"><img src="./Imgs/E-mail.png" class="icon"></a>
+
+                <div class="cont2">
+
+                    <span>Tatiana Quesquén Ruiz</span>
+                    <a href="mailto:tjqr93@educa.madrid.org">tjqr93@educa.madrid.org</a>
+                </div>
+
+            </div>
+
+            <div class="cont">
+
+                <a href="mailto:tjqr93@educa.madrid.org" class="icon"><img src="./Imgs/E-mail.png" class="icon"></a>
+
+                <div class="cont2">
+
+                    <span>Emilio Camargo Callupe</span>
+                    <a href="mailto:recc01@educa.madrid.org">recc01@educa.madrid.org</a>
+                </div>
+
+            </div>
+            <a href="https://site.educa.madrid.org/ies.villablanca.madrid/" target="_blank">
+                <p>IES VILLABLANCA</p>
+            </a>
+
         </div>
 
     </footer>

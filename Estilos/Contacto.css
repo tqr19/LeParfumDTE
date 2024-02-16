@@ -195,7 +195,7 @@ iframe {
 #boton {
 background-color: #331708 ;
 color: white;
-padding: 15px 207px 15px 207px;
+padding: 15px ;
 border: 0;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 17px;
@@ -257,3 +257,26 @@ footer {
     transform: scale(1.2); 
 }
 
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color:white;
+    margin-right: 25px;
+    font-family: helvetica;    
+}
+
+.cont {
+display: flex;
+}
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
