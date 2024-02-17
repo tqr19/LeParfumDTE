@@ -184,7 +184,7 @@ img {
     
     .category-moca {
         background-image: linear-gradient(#00000080, #00000080),
-            url('moca-category.jpg');
+            url('mocaxs.jpg');
         background-size: cover;
         background-position: bottom;
         background-repeat: no-repeat;
@@ -192,7 +192,7 @@ img {
     
     .category-capuchino {
         background-image: linear-gradient(#00000080, #00000080),
-            url('capuchino-category.jpg');
+            url('capuchinoxs.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -200,7 +200,7 @@ img {
     
     .category-expreso {
         background-image: linear-gradient(#00000080, #00000080),
-            url('expreso-category.jpg');
+            url('expresoxs.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
