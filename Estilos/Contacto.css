@@ -81,8 +81,6 @@ header ul li a {
     padding: 15px 15px;
 }
 
-/*hasta aquí*/
-
 .zona1 {
     position: relative;
     width: 100%;
@@ -212,13 +210,11 @@ footer {
     background-image: url(../Imgs/footer.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 800px;
-    /*border: 5px solid black;*/
     height: 700px;
     position: relative;
     display: flex;
 }
 .maps {
-    /*border: 5px solid;*/
     width: 479px;
     margin: auto;
     margin-top: 400px;
