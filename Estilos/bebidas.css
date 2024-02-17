@@ -3,36 +3,85 @@ body {
     background-color: white;
     margin: 0%;
 }
+
+body {
+    margin: 0%;
+}
+
 header {
-    display: flex;
-    background-color: black;
-    height: 100px;
-    align-items: center;
-    justify-content: space-between;
-    text-align: right;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
-}
-.logo {
-    width: 250px;
-    height: 100px;
-    padding-left: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    z-index: 10;
+    background-color: #000000;
 }
 
-a {
+#LOGO {
     text-decoration: none;
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+header .logo {
+    position: relative;
+    transition: 1.5s;
     color: white;
+    font-size: 30px;
+    font-family:Allura;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
 }
 
-nav a {
-    font-weight: 500px;
-    padding-right: 30px;
+header .logo2 {
+    position: relative;
+    transition: 1.5s;
+    color: white;
+    font-size: 20px;
+    padding-left: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    line-height: 80%;
 }
-.lista1 {
-    padding-left: 200px;
+
+
+
+@font-face {
+    font-family:Allura;
+    src: url(../Fuentes/Allura-Regular.ttf);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.lista:hover {
+    background-color: #262626;
+    
+}
+
+header ul li a {
+    position: relative;
+    font-family: helvetica;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    padding: 15px 15px;
 }
 
 .div0 {

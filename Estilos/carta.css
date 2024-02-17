@@ -4,6 +4,7 @@ body {
     margin: 0%;
 }
 
+
 header {
     position: fixed;
     top: 0;
@@ -16,14 +17,12 @@ header {
     background-color: #000000;
 }
 
-h1 {
-    margin-top: 85px;
+#LOGO {
+    text-decoration: none;
 }
 header .logo {
     position: relative;
     transition: 1.5s;
-    width: 250px;
-    height: 90px;
     color: white;
     font-size: 30px;
     font-family:Allura;
@@ -35,14 +34,13 @@ header .logo {
 header .logo2 {
     position: relative;
     transition: 1.5s;
-    width: 250px;
-    height: 90px;
     color: white;
     font-size: 20px;
     padding-left: 76px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     line-height: 80%;
 }
+
 
 
 @font-face {
@@ -56,7 +54,6 @@ nav {
     align-items: center;
 }
 
-
 header ul {
     position: relative;
     display: flex;
@@ -68,16 +65,57 @@ header ul li {
     list-style: none;
 }
 
+.lista:hover {
+    background-color: #262626;
+    
+}
+
 header ul li a {
     position: relative;
     font-family: helvetica;
-    margin: 0 15px;
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
-}header tatiana
+    padding: 15px 15px;
+}
+
+.contenedor {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-size: 100vw 80vh;
+  }
+  
+  .contenedor img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    height: 60vh;
+    width: 100%;
+    background-size: 100vw 80vh;
+  }
+  
+  .contenedor img.top:hover {
+    opacity: 0;
+  }
+/*.zona1 {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url(../Imgs/menu1.jpg);
+    background-size: 100vw 80vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+}*/
+
+/*.zona1:hover {
+    opacity: 0;
+}*/
+
+
 
 /*header dani*/
 /*header {
@@ -119,7 +157,7 @@ nav a {
     height: 1000px;
     padding: 10px;
     margin: 0;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .p3 {
@@ -136,7 +174,7 @@ h1 {
     margin-bottom: 0%;
 }
 
-p {
+.pp {
     font-size: 25px;
     margin-right: 200px;
     color: black;
@@ -303,35 +341,30 @@ footer {
 .icon:hover{
     transform: scale(1.2); 
 }
-/*.footerrr {
-    width: 100%;
-    height: 700px;
-}
-.redes {
-    position: absolute;
-    bottom: 60px;
-   
-}
-.red {
-    color: white;
-    margin: 0px;
-    font-size: 20px;
-}
-.redes {
-    align-items: center;
-}
-.red2 {
-    text-align: center;
-    color: white
-}
-.reddd {
-    position: absolute;
-    bottom: 60px;
-    align-items: center;
-}
-/*javascript*/
 
-/*.filtro{
-    display: none;
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color:white;
+    margin-right: 25px;
+    font-family: helvetica;    
 }
+
+
+.cont {
+display: flex;
+}
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
 

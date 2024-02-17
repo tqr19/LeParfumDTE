@@ -3,23 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="carta">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Daniela Ordoñez Maygua, Tatiana Quesquen Ruiz, Emilio Camargo Callupe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Imgs/Icono.jpeg">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./Estilos/bebidas.css">
-    <title>Document</title>
     <script src="./JavaScript/bebidas.js"></script>
+    <title>Cafeteria/Bebidas</title>
 </head>
 
 <body>
     <header>
-        <img class="logo" src="./Imgs/LE PARFUM.jpg">
-        <nav class="lista1">
-            <a href="Index.html">Inicio</a>
-            <a href="#">¿Quienes somos?</a>
-            <a href="Asociacion.html">Asociación</a>
-            <a href="carta.html">Carta</a>
-            <a href="#">Productos</a>
-            <a href="Contacto.html">Contacto</a>
+        <div>
+            <a href="Index.html" id="LOGO">
+                <span class="logo">
+                    Le Parfum </span>
+                <br><span class="logo2">CAFÉ</span>
+            </a>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="Index.html" class="lista">Inicio</a></li>
+                <li><a href="./Quienes Somos.html" class="lista">¿Quienes somos?</a></li>
+                <li><a href="./Asociacion.html" class="lista">Asociación</a></li>
+                <li><a href="./carta.html" class="lista">Carta</a></li>
+                <li><a href="#" class="lista">Productos</a></li>
+                <li><a href="./Contacto.html" class="lista">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -32,6 +46,7 @@
                 <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
                 <div class="div1">
                     <h2>Caliente</h2>
+                    <hr>
                 </div>
 
                 <ul id="listaArticulos">
