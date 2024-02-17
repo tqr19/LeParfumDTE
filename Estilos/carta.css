@@ -1,0 +1,337 @@
+
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    z-index: 10;
+    background-color: #000000;
+}
+
+h1 {
+    margin-top: 85px;
+}
+header .logo {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 30px;
+    font-family:Allura;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+
+header .logo2 {
+    position: relative;
+    transition: 1.5s;
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: 20px;
+    padding-left: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    line-height: 80%;
+}
+
+
+@font-face {
+    font-family:Allura;
+    src: url(../Fuentes/Allura-Regular.ttf);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}header tatiana
+
+/*header dani*/
+/*header {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.logo {
+    width: 250px;
+    height: 100px;
+    padding-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav a {
+    font-weight: 500px;
+    padding-right: 30px;
+}
+.lista1 {
+    padding-left: 200px;
+}*/
+/**/
+
+.div0 {
+    width: 150px;
+    height: 1000px;
+    padding: 10px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.p3 {
+    margin: 0px;
+}
+aside {
+    float: right;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    src: url('Calibri.ttf');
+    font-size: 65px;
+    color: black;
+    margin-bottom: 0%;
+}
+
+p {
+    font-size: 25px;
+    margin-right: 200px;
+    color: black;
+}
+
+.div0 {
+    margin-left: 185px;
+    height: fit-content;
+    width: 70%;
+    margin-left: 265px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 350px;
+    gap: 30px;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+    height: auto;
+    
+}
+
+/*.grid-container:hover {
+    transform: scale(1.2); 
+}*/
+/*.cafe1{
+    width: 700px;
+    height: 340px;
+    filter: opacity(80%);
+}*/
+/*cafeteria y bebidas*/
+.div1 {
+    background-image: url(./Imgs/bebidas.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+.div1:hover{
+    transform: scale(1.1); 
+}
+.p1{
+    position: relative;
+    display: flex;
+    margin-left: 177px;
+    margin-right: auto;
+    margin-top: 138px;
+    font-size: 45px;
+    color: white;
+    font-family: "Mussels", Sans-serif;
+   filter: drop-shadow(black 5px 5px 2px);
+}
+/*cyb*/
+/*Desayunos*/
+a {
+    text-decoration: none;
+}
+.div2 {
+    background-image: url(./Imgs/desayunos.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+.div2:hover{
+    transform: scale(1.1); 
+}
+.div3 {
+    background-image: url(./Imgs/bocadillos.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+.div3:hover{
+    transform: scale(1.1); 
+}
+.div4 {
+    background-image: url(./Imgs/postres.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+
+.div4:hover{
+    transform: scale(1.1); 
+}
+.nombres {
+    color: white;
+    font-size: 22px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/*footer*/
+footer {
+    background-image: url(./Imgs/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 800px;
+    /*border: 5px solid black;*/
+    height: 700px;
+    position: relative;
+    display: flex;
+}
+.maps {
+    /*border: 5px solid;*/
+    width: 479px;
+    margin: auto;
+    margin-top: 400px;
+    text-align: -webkit-center;
+}
+.red {
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif
+}
+.redes{
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.social {
+    width: 479px;
+    margin: auto;
+    margin-top: 400px;
+    text-align: -webkit-center;
+}
+
+.icon {
+    width: 45px;
+    transition: transform .2s; 
+}
+.icon:hover{
+    transform: scale(1.2); 
+}
+/*.footerrr {
+    width: 100%;
+    height: 700px;
+}
+.redes {
+    position: absolute;
+    bottom: 60px;
+   
+}
+.red {
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+}
+.redes {
+    align-items: center;
+}
+.red2 {
+    text-align: center;
+    color: white
+}
+.reddd {
+    position: absolute;
+    bottom: 60px;
+    align-items: center;
+}
+/*javascript*/
+
+/*.filtro{
+    display: none;
+}
+
