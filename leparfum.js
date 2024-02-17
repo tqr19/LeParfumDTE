@@ -1,4 +1,4 @@
-const search = document.querySelector(".input input"),
+/*const search = document.querySelector(".input input"),
       images = document.querySelectorAll(".div1");
 search.addEventListener("keyup", e =>{
     if(e.key == "Enter"){
@@ -19,7 +19,7 @@ search.addEventListener("keyup", () =>{
     images.forEach(image =>{
         image.style.display = "block";
     })
-})
+})*/
 /*document.addEventListener("keyup", e =>{
     if (e.target.matches("#buscar")){
         document.querySelectorAll('.articulo').forEach(cafe =>{
