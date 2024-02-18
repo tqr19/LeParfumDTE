@@ -1,0 +1,367 @@
+
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    z-index: 10;
+    background-color: #000000;
+}
+
+#LOGO {
+    text-decoration: none;
+}
+header .logo {
+    position: relative;
+    transition: 1.5s;
+    color: white;
+    font-size: 30px;
+    font-family:Allura;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+
+header .logo2 {
+    position: relative;
+    transition: 1.5s;
+    color: white;
+    font-size: 20px;
+    padding-left: 76px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    line-height: 80%;
+}
+
+
+
+@font-face {
+    font-family:Allura;
+    src: url(../Fuentes/Allura-Regular.ttf);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.lista:hover {
+    background-color: #262626;
+    
+}
+
+header ul li a {
+    position: relative;
+    font-family: helvetica;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    padding: 15px 15px;
+}
+
+.contenedor {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-size: 100vw 80vh;
+  }
+  
+  .contenedor img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    height: 60vh;
+    width: 100%;
+    background-size: 100vw 80vh;
+  }
+  
+  .contenedor img.top:hover {
+    opacity: 0;
+  }
+/*.zona1 {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url(../Imgs/menu1.jpg);
+    background-size: 100vw 80vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+}*/
+
+/*.zona1:hover {
+    opacity: 0;
+}*/
+
+
+
+/*header dani*/
+/*header {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.logo {
+    width: 250px;
+    height: 100px;
+    padding-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav a {
+    font-weight: 500px;
+    padding-right: 30px;
+}
+.lista1 {
+    padding-left: 200px;
+}*/
+/**/
+
+
+
+.p3 {
+    margin: 0px;
+}
+aside {
+    float: right;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    src: url('Calibri.ttf');
+    font-size: 65px;
+    color: black;
+    margin-bottom: 0%;
+}
+
+.pp {
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+}
+
+.div0 {
+    padding: 10px;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 350px;
+    gap: 30px;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+    height: auto;
+    
+}
+
+/*.grid-container:hover {
+    transform: scale(1.2); 
+}*/
+/*.cafe1{
+    width: 700px;
+    height: 340px;
+    filter: opacity(80%);
+}*/
+/*cafeteria y bebidas*/
+.div1 {
+    background-image: url(../Imgs/bebidas.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+.div1:hover{
+    transform: scale(1.1); 
+}
+.p1{
+    position: relative;
+    display: flex;
+    margin-left: 177px;
+    margin-right: auto;
+    margin-top: 138px;
+    font-size: 45px;
+    color: white;
+    font-family: "Mussels", Sans-serif;
+   filter: drop-shadow(black 5px 5px 2px);
+}
+/*cyb*/
+/*Desayunos*/
+a {
+    text-decoration: none;
+}
+.div2 {
+    background-image: url(../Imgs/desayunos.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+.div2:hover{
+    transform: scale(1.1); 
+}
+.div3 {
+    background-image: url(../Imgs/bocadillos.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+.div3:hover{
+    transform: scale(1.1); 
+}
+.div4 {
+    background-image: url(../Imgs/postres.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 340px;
+    width: 700px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.7;
+    transition: transform .5s; 
+}
+
+.div4:hover{
+    transform: scale(1.1); 
+}
+.nombres {
+    color: white;
+    font-size: 22px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/*footer*/
+footer {
+    background-image: url(../Imgs/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 800px;
+    /*border: 5px solid black;*/
+    height: 700px;
+    position: relative;
+    display: flex;
+}
+.maps {
+    /*border: 5px solid;*/
+    width: 479px;
+    margin: auto;
+    margin-top: 400px;
+    text-align: -webkit-center;
+}
+.red {
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif
+}
+.redes{
+    margin-right: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.social {
+    width: 479px;
+    margin: auto;
+    margin-top: 400px;
+    text-align: -webkit-center;
+}
+
+.icon {
+    width: 45px;
+    transition: transform .2s; 
+}
+.icon:hover{
+    transform: scale(1.2); 
+}
+
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color:white;
+    margin-right: 25px;
+    font-family: helvetica;    
+}
+
+
+.cont {
+display: flex;
+}
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+

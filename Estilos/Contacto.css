@@ -81,8 +81,6 @@ header ul li a {
     padding: 15px 15px;
 }
 
-/*hasta aquí*/
-
 .zona1 {
     position: relative;
     width: 100%;
@@ -195,7 +193,7 @@ iframe {
 #boton {
 background-color: #331708 ;
 color: white;
-padding: 15px 207px 15px 207px;
+padding: 15px ;
 border: 0;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 17px;
@@ -212,13 +210,19 @@ footer {
     background-image: url(../Imgs/footer.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 800px;
-    /*border: 5px solid black;*/
     height: 700px;
     position: relative;
     display: flex;
 }
+
+.Derechos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-left: auto;
+}
+
 .maps {
-    /*border: 5px solid;*/
     width: 479px;
     margin: auto;
     margin-top: 400px;
@@ -257,3 +261,26 @@ footer {
     transform: scale(1.2); 
 }
 
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color:white;
+    margin-right: 25px;
+    font-family: helvetica;    
+}
+
+.cont {
+display: flex;
+}
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
