@@ -85,14 +85,17 @@ header ul li a {
 }
 
 .div0 {
-    width: 150px;
-    height: 1000px;
-    padding: 10px;
-    margin: 0;
     margin-top: 100px;
     text-decoration: none;
     color: brown;
+    padding: 10px;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: row;
 }
+
 #listaArticulos {
     list-style: none;
 
@@ -105,24 +108,14 @@ header ul li a {
     margin: 0px;
 }
 
-aside {
-    float: right;
-}
-
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: black;
-    margin-bottom: 0%;
     text-align: center;
+    margin-top: 100px;
 }
 
-.div0 {
-    margin-left: 185px;
-    height: fit-content;
-    width: 30%;
-    margin-left: 265px;
-}
 
 .div1 {
     align-content: center;
@@ -142,10 +135,9 @@ hr {
 
 section {
     display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-direction: column;
     font-size: 20px;
+    align-items: center;
 }
 
 input {
@@ -166,14 +158,12 @@ footer {
     background-image: url(../Imgs/footer.jpg);
     background-repeat: no-repeat;
     background-size: 2000px 800px;
-    /*border: 5px solid black;*/
     height: 700px;
     position: relative;
     display: flex;
 }
 
 .maps {
-    /*border: 5px solid;*/
     width: 479px;
     margin: auto;
     margin-top: 400px;
@@ -240,13 +230,13 @@ a {
     color: white;
 }
 
-aside {
+.aside {
     width: 700px;
-    height: 1000px;
-    /*border: 5px solid;
-    color: black;*/
+    height: 1750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-/**/
 .contenedor {
     position: relative;
     height: 425px;
@@ -266,13 +256,12 @@ aside {
 .contenedor img.top:hover {
     opacity: 0;
 }
- /* */
- .contenedor2 {
+
+.contenedor2 {
     position: relative;
     height: 290px;
     width: 290px;
     margin: 50px 20px;
- 
 }
   
 .contenedor2 img {
@@ -285,8 +274,8 @@ aside {
     border: 5px solid black;
     
 }
-  
-  .contenedor2 img.top2:hover {
+
+.contenedor2 img.top2:hover {
     opacity: 0;
 }
  
