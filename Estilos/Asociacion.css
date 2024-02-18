@@ -120,12 +120,12 @@ header ul li a {
 .contenido {
     font-size: 20px;
     text-align: justify;
-    padding: 60px;
+    padding: 40px;
 }
 
 .fila {
-    width: 30vw;
-    height: 270px;
+    width: 20vw;
+    height: 200px;
     display: flex;
     justify-content: center;
     padding: 8px;
@@ -136,7 +136,9 @@ header ul li a {
 }
 
 .galeria {
-    width: 100%;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,8 +194,15 @@ footer {
     position: relative;
     display: flex;
 }
+
+.Derechos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-left: auto;
+}
 .maps {
-    width: 479px;
+    width: 50vw;
     margin: auto;
     margin-top: 400px;
     text-align: -webkit-center;
