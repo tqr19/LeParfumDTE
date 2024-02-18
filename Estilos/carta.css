@@ -152,13 +152,7 @@ nav a {
 }*/
 /**/
 
-.div0 {
-    width: 150px;
-    height: 1000px;
-    padding: 10px;
-    margin: 0;
-    margin-top: 10px;
-}
+
 
 .p3 {
     margin: 0px;
@@ -176,15 +170,18 @@ h1 {
 
 .pp {
     font-size: 25px;
-    margin-right: 200px;
     color: black;
+    text-align: justify;
 }
 
 .div0 {
-    margin-left: 185px;
-    height: fit-content;
-    width: 70%;
-    margin-left: 265px;
+    padding: 10px;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .grid-container {
