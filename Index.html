@@ -9,6 +9,7 @@
     <link rel="icon" href="./Imgs/Icono.jpeg">
     <script type="text/javascript" src="./JavaScript/Contacto.js"></script>
     <link rel="stylesheet" href="./Estilos/inicio.css">
+    <script src="./inicio.js"></script>
 
     <title>Index</title>
 
@@ -45,8 +46,9 @@
        <div class="grid-container">
      </div>
     </div>
+
     <!--CALENDARIO DE EVENTOS-->
- 
+
     <div class="root">
        <h1>Calendario de Reservas y Eventos</h1><br>
 
@@ -111,6 +113,26 @@
        </div>
 
     </div>
+
+    <!--ZONA DE JAVA-->
+    
+    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+    <script  type="text/javascript" src="./js/calendar.js"></script>
+    <script type="text/javascript">
+        let calendar = new Calendar('calendar');
+        calendar.getElement().addEventListener('change', e => {
+            console.log(calendar.value().format('LLL'));
+        });
+
+        let calendar2 = new Calendar('calendar2');
+        calendar2.getElement().addEventListener('change', e => {
+            console.log(calendar2.value().format('LLL'));
+        });
+    </script>
+
+    <!--ZONA DEL MAIN-->
+    
     <main class="main-content">
 
         <section class="container top-products">
@@ -493,16 +515,18 @@
             </div>
         </section>
     </main>
-
     <footer>
-    
+        <div class="Derechos">
+            <p>&copy; Copyright, Derechos de autor 2024</p>
+        </div>
+
         <div class="maps">
             <a href="https://maps.app.goo.gl/QfVSaZYuHRR2D1vJ7" target="_blank" class="icon"><img src="./Imgs/maps.jpg"
                     class="icon"></a>
             <p class="red">Te esperamos en la <br> C.de Villablanca, 79, 28032 <br>Madrid, España</p>
-    
+
             <p class="redes">Siguenos en nuestras redes</p>
-    
+
             <div>
                 <a href="https://www.youtube.com/" target="_blank" class="icon"><img src="./Imgs/facebook.jpg"
                         class="icon"></a>
@@ -512,7 +536,7 @@
                         class="icon"></a>
             </div>
         </div>
-         
+
         <div class="contactanos">
             <a href="./Contacto.html">
                 <p>CONTÁCTANOS</p>
@@ -553,16 +577,18 @@
                 </div>
 
             </div>
-            <a href=".https://site.educa.madrid.org/ies.villablanca.madrid/" target="_blank">
+            <a href="https://site.educa.madrid.org/ies.villablanca.madrid/" target="_blank">
                 <p>IES VILLABLANCA</p>
             </a>
 
         </div>
 
-              
     </footer>
 
-</footer>
+</body>
+
+</html>
+    
 
 </body>
 </html>
