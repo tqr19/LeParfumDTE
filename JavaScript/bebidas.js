@@ -1,4 +1,4 @@
-document.addEventListener("keyup", e => {
+document.addEventListener("keyup", e => {   
 
   if (e.target.matches("#buscador")) {
 
@@ -29,7 +29,7 @@ else {
   alert("El cliente quiere probar" + cantidad + " la comida cuesta..." + precio + " cada una. El total de tu proxima compra es: " + parseFloat(precio) * parseInt(cantidad));
 }*/
 function ej6() {
-  var menu = prompt("¿De cuántos productos quieres hacer la cuenta?");
+  var menu = prompt("Ingrese un número de productos entre 1 y 10 para poder calcular.");
   switch (menu) {
 
     case "1":
