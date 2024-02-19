@@ -5,7 +5,6 @@ body {
 
 }
 /* MODIFICACIONES PARA EL HEADER */
-
 header {
     position: fixed;
     top: 0;
@@ -15,7 +14,6 @@ header {
     justify-content: space-around;
     transition: 0.7s;
     z-index: 10;
-    background-color: #000000;
 }
 
 header.abajo {
@@ -86,6 +84,7 @@ header ul li a {
     padding: 15px 15px;
 }
 
+/*TERMINA EL HEADER*/
 a {
     text-decoration: none;
     font-size: 28px;
@@ -137,7 +136,7 @@ h1 {
     
 }
 
-p {
+.price {
     font-size: 25px;
     margin-right: 90px;
     color: black;
@@ -182,7 +181,6 @@ p {
 }
 
 /* MODIFICACION PARA EL FOOTER */
-
 footer {
     background-image: url(../Imgs/footer.jpg);
     background-repeat: no-repeat;
@@ -192,6 +190,14 @@ footer {
     position: relative;
     display: flex;
 }
+
+.Derechos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-left: auto;
+}
+
 .maps {
     /*border: 5px solid;*/
     width: 479px;
@@ -251,19 +257,13 @@ display: flex;
     font-style: italic;
 }
 
-.cont {
-display: flex;
-}
-.cont2 {
-    display: flex;
-    flex-direction: column;
-    font-style: italic;
-}
-
 a {
     text-decoration: none;
     color:white;
 }
+
+    /*FIN DEL FOOTER*/
+
 .mivideo {
     position: absolute;
     overflow: hidden;
@@ -303,6 +303,7 @@ a {
         justify-content: center;
         border-radius: 2rem;
         gap: 2rem;
+    
     }
     
     /*   MODIFICACION DE LAS CATEGORIAS B*/
@@ -381,9 +382,9 @@ a {
     }
     
     .card-product {
-        background-color: #b3b3b2e3;
-        padding: 4rem 2rem;
-        border-radius: 9rem;
+        background-color:white;
+        padding: 4rem 1%;
+        border-radius: 20rem #ffffffe3;
         border-color: #000000;
         cursor: pointer;
         box-shadow: 0 0 2px rgba(0, 0, 0, 1.1);
@@ -579,6 +580,7 @@ a {
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        text-align: justify;
     }
     
     .card-blog .container-img {
@@ -689,7 +691,7 @@ a {
     margin-bottom: 30px;   
 }  
 
-          /*MODIFICACION DE LOS BOTONES DEL CALENDARIO*/
+    /*MODIFICACION DE LOS BOTONES DEL CALENDARIO*/
 
 .calendar .control {
     color: white; 
@@ -718,7 +720,7 @@ a {
         
         grid-auto-rows: 40px;
         color:#000000;
-        display left: 5%;
+        text-align: center;
     }
         
     
@@ -733,6 +735,7 @@ a {
     .grid__cell--gd {
 
         cursor: pointer;
+        padding: 10px;
     }
 
     .grid__cell--selected{
@@ -744,4 +747,26 @@ a {
      box-shadow: 0 0 0 2x var(--colo-bg-calendar) inset;
 
     }
-    
+    /*MODIFICACIONES DE EVENTOS*/
+
+    .paleta1 {
+        background-color: black;
+        width: 150;
+        padding: 35px;
+        color: white;
+    }
+
+   .agrupacion {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .root {
+    display: flex;
+   }
+
+   .conteinervip {
+    display: flex;
+    flex-direction: row;
+   }
+
