@@ -309,3 +309,7 @@ a {
     color: white;
     margin-left: auto;
 }
+
+.inputbo {
+    width: 50px;
+}

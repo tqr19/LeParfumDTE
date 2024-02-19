@@ -29,26 +29,26 @@ else {
   alert("El cliente quiere probar" + cantidad + " la comida cuesta..." + precio + " cada una. El total de tu proxima compra es: " + parseFloat(precio) * parseInt(cantidad));
 }*/
 function ej6() {
-  var menu = prompt("¿De cuantos productos quieres hacer la cuenta?");
+  var menu = prompt("¿De cuántos productos quieres hacer la cuenta?");
   switch (menu) {
 
     case "1":
       precio = prompt("Indica el precio del producto: ");
       /*cantidad = prompt("Indica la cantidad a comprar: ");*/
-      confirm("El producto cuesta" + precio + "\nEl total de tu comida es..." + precio);
+      confirm("El producto vale" + precio + "\nEl total de tu menú es..." + precio);
       break;
 
     case "2":
       precio1 = prompt("Indica el precio del primer producto: ");
       precio2 = prompt("Indica el precio del segundo producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2)));
       break;
 
     case "3":
       precio1 = prompt("Indica el precio del primer producto: ");
       precio2 = prompt("Indica el precio del segundo producto: ");
       precio3 = prompt("Indica el precio del tercer producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3)));
       break;
 
     case "4":
@@ -56,7 +56,7 @@ function ej6() {
       precio2 = prompt("Indica el precio del segundo producto: ");
       precio3 = prompt("Indica el precio del tercer producto: ");
       precio4 = prompt("Indica el precio del cuarto producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4)));
       break;
 
     case "5":
@@ -65,7 +65,7 @@ function ej6() {
       precio3 = prompt("Indica el precio del tercer producto: ");
       precio4 = prompt("Indica el precio del cuarto producto: ");
       precio5 = prompt("Indica el precio del quintp producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5)));
       break;
 
     case "6":
@@ -75,7 +75,7 @@ function ej6() {
       precio4 = prompt("Indica el precio del cuarto producto: ");
       precio5 = prompt("Indica el precio del quinto producto: ");
       precio6 = prompt("Indica el precio del sexto producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6)));
       break;
 
     case "7":
@@ -86,7 +86,7 @@ function ej6() {
       precio5 = prompt("Indica el precio del quinto producto: ");
       precio6 = prompt("Indica el precio del sexto producto: ");
       precio7 = prompt("Indica el precio del septimo producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6) + parseInt(precio7)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6) + parseInt(precio7)));
       break;
 
     case "8":
@@ -98,7 +98,7 @@ function ej6() {
       precio6 = prompt("Indica el precio del sexto producto: ");
       precio7 = prompt("Indica el precio del septimo producto: ");
       precio8 = prompt("Indica el precio del octavo producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6) + parseInt(precio7) + parseInt(precio8)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6) + parseInt(precio7) + parseInt(precio8)));
       break;
 
     case "9":
@@ -111,7 +111,7 @@ function ej6() {
       precio7 = prompt("Indica el precio del septimo producto: ");
       precio8 = prompt("Indica el precio del octavo producto: ");
       precio9 = prompt("Indica el precio del noveno producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6) + parseInt(precio7) + parseInt(precio8) + parseInt(precio9)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6) + parseInt(precio7) + parseInt(precio8) + parseInt(precio9)));
       break;
 
     case "10":
@@ -125,7 +125,7 @@ function ej6() {
       precio8 = prompt("Indica el precio del octavo producto: ");
       precio9 = prompt("Indica el precio del noveno producto: ");
       precio10 = prompt("Indica el precio del decimo producto: ");
-      alert("El total de tu comida es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6) + parseInt(precio7) + parseInt(precio8) + parseInt(precio9) + parseInt(precio10)));
+      alert("El total de tu menú es..." + (parseInt(precio1) + parseInt(precio2) + parseInt(precio3) + parseInt(precio4) + parseInt(precio5) + parseInt(precio6) + parseInt(precio7) + parseInt(precio8) + parseInt(precio9) + parseInt(precio10)));
       break;
 
     default:
