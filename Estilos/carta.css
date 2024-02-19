@@ -364,4 +364,10 @@ a {
     color:white;
 }
 
+.Derechos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-left: auto;
+}
 

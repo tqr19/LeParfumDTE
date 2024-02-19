@@ -279,4 +279,10 @@ a {
 .contenedor2 img.top2:hover {
     opacity: 0;
 }
- 
+
+.Derechos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-left: auto;
+}

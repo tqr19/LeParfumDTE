@@ -302,3 +302,10 @@ a {
 .contenedor3 img.top3:hover {
     opacity: 0;
   }
+
+  .Derechos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-left: auto;
+}
