@@ -152,7 +152,6 @@ input {
     display: none;
 }
 
-
 footer {
     background-image: url(../Imgs/footer.jpg);
     background-repeat: no-repeat;
@@ -251,7 +250,7 @@ a {
     transition: opacity 0.9s ease-in-out;
     height: 425px;
     width: 360px;
-    margin: 195px 5px;
+    margin: 62px 52px;
     border: 5px solid black;   
 } 
 .contenedor img.top:hover {
@@ -272,7 +271,7 @@ a {
     transition: opacity 1s ease-in-out;
     height: 425px;
     width: 360px;
-    margin: 300px 5px;
+    margin: 225px 5px;
     border: 5px solid black;
     
 }
@@ -295,7 +294,7 @@ a {
     transition: opacity 1s ease-in-out;
     height: 425px;
     width: 360px;
-    margin: 450px 5px;
+    margin: 305px 5px;
     border: 5px solid black;
     
 }
@@ -303,3 +302,14 @@ a {
 .contenedor3 img.top3:hover {
     opacity: 0;
   }
+
+  .Derechos {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-left: auto;
+}
+
+.inputbo {
+    width: 50px;
+}
